@@ -1,0 +1,19 @@
+OOP - programming paradigm -> design patterns
+
+MVC - design patttern -> MVC Framework -> CI ->
+=============================================================
+
+//MVC
+
+View
+-UI logic
+
+Model
+-data logic
+
+Controller
+-application logic
+
+application logic complex
+-readability
+-robust

@@ -1,0 +1,25 @@
+	//PHP
+file extension			====> .php
+$ 				====> $ sign is important in PHP.
+
+echo				====> string, integer, boolean
+print_r				====> Array & Object
+var_dump			====> not only Data but also Data type
+var_dump			====> var_dump is best print statement in PHP  
+
+operations			====> +,-,*,/,%
+
+operators			====> (<,>,=,==.===)
+=				====> assign variable, set variable
+==				====> check content, not data type
+===				====> check content & data type
+!=,<>				====> not equal
+>,<.>=,<=
+&& must. \\ or
+
+conditional statement		====> if else & switch
+
+looping				=====> for loop, while loop, do while loop, for each loop
+for each looping		=====> for each is more use in PHP 
+During looping process		====>	array pyae kya twr
+

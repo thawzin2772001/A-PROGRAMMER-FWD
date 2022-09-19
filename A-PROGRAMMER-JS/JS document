@@ -1,0 +1,211 @@
+		JavaScript//
+		
+Need to write JS code after the body section,
+
+// DATA TYPES
+// number - integer, float, decimal
+// string - '', ""
+
+ var number = 1;
+ var string = "Hello FWD";
+ 
+=======================================
+// boolean- true, false
+// array, object
+
+ var boolean= false;
+ var array = ['value','value2'];
+ var obj   = {'name','Hlaing'};
+ 
+=======================================
+//operators (+,-,*,/,%)
+
+var n1 = 2;
+var n2 = 9;
+var n3 = 4;
+var math = Math.pow(2,4);
+var math = Math.random();
+n1 += 1;
+console,log(n1);
+
+=============================================
+//string
+var x = "hello";
+var y = "world";
+var r = x + y;
+console.log(r);
+
+var r = 1 + 2 + "World";
+var e = "World" + 1 + 2;
+
+var r = 'he is 'Thaw'';
+var e = "he is "Min"";
+
+==================================================
+//conditioanl statement
+var n1 = 1;
+var n2 = 2;
+var n3 = 3;
+var n4 = 'abcd';
+
+ if (n3==n2) {
+	console.log('YES');
+	}else{
+	   console.log('NO');
+	  }
+	  
+	  
+console.log('1' === 1); //check content
+console.log('1' === 1); //check content,data type
+-----------------------------------------------
+
+var n1 = 1;
+var n2 = 3;
+var n3 = 1;
+var n4 = 'abcd';
+
+if (n3 > n2) {
+	console.log('GREATER');
+}else if (n3 == n2) {
+	console.log('EQUAL');
+}else if (n3 < n2) {
+	console.log('LESS');
+}else{
+	console.log('NONE');
+}
+-----------------------------------------------
+
+var n1 = 1;
+var n2 = 2;
+var n3 = 3;
+var n4 = 'abcd';
+var x = n3 - n1;
+switch (x) {
+	case 3:
+		console.log('this is 3');
+		break;
+	case 2:
+		console.log("this is 2");
+		break;
+	default:
+		console.log('this is default');
+}
+=================================================
+
+array ===> start index 0 
+ 
+ // array 
+ <script>
+var array = [1,2,3,4,5]
+    console.log(array[1]);
+</script>
+--------------------------------------
+
+<script>
+var array = new Array(1,2,3);
+
+console.log(array[1] = "update key");
+</script>
+================================================
+
+object//
+<script>
+var object = {
+    key1: "fwd",
+    key2: "laravel"
+}
+    object.duration = "8 weeks";
+    console.log(object['key1']);
+</script>
+================================================
+
+push, pop , shift, unshift, splice//
+<script>
+var arrayData = [];
+
+arrayData.push(1);//adding data
+arrayData.push(2);//adding data
+arrayData.push(3);//adding data
+
+arrayData.pop(); //removing last element
+arrryData.shift(0); //removing first element
+
+arrayData.unshift(1); //adding data from start
+</script>
+--------------------------------------------------------
+
+
+<script>
+var arrayData = [0,1,2,3,4,5,6,7,8,9,10];
+arrayData.splice(3,5)
+console.log(arrayData);
+</script>
+=============================================================
+
+Looping//
+for loop//
+<script>
+    for (var i = 0; i<= 5; i++) {
+        console.log(i);
+    }
+</script>
+-----------------------------------------
+
+<script>
+    var array = [1,2,3,4,5];
+    for (var i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }   
+</script>
+-------------------------------------------
+
+while loop//
+<script>
+    var i = 0;
+    while (i < 10) {
+        console.log(i);
+        i++;
+
+        if (i == 3) {
+            break;
+                //continue
+        }
+    }
+</script>
+==========================================================================
+
+function//
+<script>
+    function returnName(name)
+    {
+        return "name is" + name;
+    }
+
+    console.log(returnName("Thaw Zin Lin"));
+</script>
+======================================================
+
+node.js
+//backend
+react.js
+//android
+//ios
+//desktop
+vue.js
+
+
+
+   		
+
+
+
+
+
+
+
+
+
+
+
+
+	
